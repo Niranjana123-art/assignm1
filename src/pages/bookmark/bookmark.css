@@ -30,3 +30,53 @@
     width: 4rem;
     height: 1.8rem;
 }
+
+@media (min-width: 800px) and (max-width: 1200px) {
+    .bookmarked__quotes {
+        height: 19rem;
+        width: 30rem;
+    }
+    .delete__button {
+        font-size: .8rem;
+    }
+   
+}
+
+@media (min-device-width: 650px) and (max-device-width: 800px) {
+    .bookmarked__quotes {
+        width: 60%;
+        height: 18rem;
+        padding: 2rem;
+        font-size: 1rem;
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+    
+    .delete__button {
+        font-size: .8rem;
+    }
+    
+    
+}
+
+@media (min-device-width: 250px) and (max-device-width: 650px) {
+    .bookmarked__quotes {
+        width: 100%;
+        height: 18rem;
+        padding: 2rem;
+        font-size: 1rem;
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+  
+    .delete__button {
+        font-size: .8rem;
+    }
+    
+}
+
+@media screen and (max-device-width: 250px) {
+    body {
+        display: none;
+    }
+}

@@ -7,7 +7,7 @@ import './App.css';
 import Landing from './pages/landing/landing';
 import Bookmark from "./pages/bookmark/bookmark";
 import Navbar from './component/navbar/navbar';
-import Loader from "./component/navbar/loader/loader";
+import Loader from "./component/loader/loader";
 
 function App() {
   return (
