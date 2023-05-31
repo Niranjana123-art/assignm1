@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Sevillana&display=swap'); 
+.landing__container{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ min-width: 100%;
+ min-height: 100vh;
+ background: linear-gradient(98.36deg, #332389 9.34%, #5529A9 97.19%);
+}
+.landing__container h1{
+    color: white;
+}
+.nextquote__button{
+    width:10rem;
+    height: 2rem;
+    background-color: #009c51;
+    border: none;
+    border-radius: 4rem;
+    box-shadow: 4px 4px 5px   #012224;
+    margin-top: 3rem;
+}
+.landing__tags{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 4rem;
+}
+.landing__quote{
+    color: #ffffff;
+    font-family: "Quicksand";
+    background-color: #d05252;
+    width: 32rem;
+    height: 10rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+    padding-bottom: 2rem;
+}
+.author__name{
+    
+    display: inline-block;
+ 
+    text-align: bottom;
+}
+.bookmark__button{
+    background: none;
+    border: none;
+}
+.bookmarked .dimmed {
+    opacity: 0.5;
+}
+.bookmark__button {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+
+@media(min-device-width: 200px) and (max-device-width: 800px) {
+    .landing__container h1{
+        font-size: 5rem;
+    }
+    
+    .landing__quote {
+        font-size: 1.2rem;
+    }
+    .nextquote__button {
+        width: 8rem;
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-device-width: 250px) {
+    body {
+        display: none;
+    }
+}

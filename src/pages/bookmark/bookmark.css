@@ -1,0 +1,32 @@
+.bookmark__container{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ min-width: 100%;
+ min-height: 100vh;
+ color: #ffffff;
+ background: linear-gradient(98.36deg, #332389 9.34%, #5529A9 97.19%);
+}
+.bookmarked__quotes{
+    color: #ffffff;
+    font-family: "Quicksand";
+    background-color: #d05252;
+    width: 32rem;
+    height: 10rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+.delete__button{
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14rem;
+    margin-top: 3rem;
+    width: 4rem;
+    height: 1.8rem;
+}
